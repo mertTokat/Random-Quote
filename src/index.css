@@ -1,0 +1,37 @@
+.inner {
+  background-color: #3E244C;
+  color: #FCFF37;
+  margin: 2em;
+  padding: 2em;
+  border-radius: 5%;
+  width: 25em;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.right, .horizontal {
+  text-align: right;
+}
+
+.twitter {
+  float: left;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 1.5rem;
+}
+
+button {
+  background-color: #FCFF37;
+  color: #3E244C;
+  border-radius: 5%;
+  
+}
+
+body{
+  background: linear-gradient(90deg, rgba(161,36,68,1) 14%, rgba(151,75,38,1) 53%, rgba(23,121,194,1) 95%);
+}
